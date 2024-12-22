@@ -1,0 +1,111 @@
+/* Container Styles */
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Card Box Styles */
+.box {
+    width: 300px; /* Adjust width as needed */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ 
+
+/* Top Button Styles */
+.topbtn .btn3 {
+    background: #f8d7da;
+    color: #dc3545;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Plan Title Styles */
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Price Styles */
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: #27ae60;
+}
+
+h1 span {
+    font-size: 1.5rem;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+/* Description Text */
+p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+ul li label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+ul li p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Start Plan Button */
+.btn5 {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn5:hover {
+    background: #27ae60;
+    color: #fff;
+}

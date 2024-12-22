@@ -1,0 +1,88 @@
+
+/* Container for the auth card */
+.auth-container {
+    background-image: url('../shopPhotos/backgroundI.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.auth-card{
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+/* Card heading */
+.auth-card h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* Form styling */
+.auth-form .form-group {
+    margin-bottom: 15px;
+}
+
+.auth-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.auth-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.auth-form .form-group input:focus {
+    outline: none;
+    border-color: #27ae60;
+    box-shadow: 0 0 4px rgba(0, 255, 26, 0.3);
+}
+
+/* Button styling */
+.auth-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #fff;
+    color: #27ae60;
+}
+
+/* Toggle text */
+.toggle-text {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+}
+
+.toggle-link {
+    color: #27ae60;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.toggle-link:hover {
+    text-decoration: underline;
+}

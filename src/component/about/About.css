@@ -1,0 +1,93 @@
+/* About Section Styling */
+  
+  .about .flex {
+    display: flex;
+  }
+  
+  .mtop {
+    margin-top: 50px;
+  }
+  
+  /* Left Column Styling */
+  .about .left {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .about .left p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .about .left p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Right Column Styling */
+  .about .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about .right img {
+    margin-top: 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .about .h1{
+    font-family: "Italianno", serif;
+    font-style: normal;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 85px;
+  }
+  .about .h4{
+    text-align: center;
+    color: #888;
+  }
+  /* Heading Component Styling */
+  .heading {
+    margin-bottom: 30px;
+  }
+  
+  .heading h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .heading h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #888;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .about .container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .about .left, .about .right {
+      padding: 0;
+    }
+  
+    .back {
+      height: 30vh;
+    }
+  
+    .back h1 {
+      font-size: 28px;
+    }
+  }
+  
