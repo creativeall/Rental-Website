@@ -57,91 +57,91 @@ export const price = [
 
 export const itemCollection = [
   { cover: '../images/item1.jpg', 
-    name: 'Elegant Suit',
-    Suit: 'Silk',
-    Anarkalis: 'Cotton',
-    Bodycone: 'Velvet'
+    name: 'Mochi green organza',
+    category: 'suit set',
+    location: 'Ujjain',
+    price: 'Rs.2,750'
   },
   { cover: '../images/casual4.png',
-    name: 'Stylish Anarkali',
-    Suit: 'Chiffon',
-    Anarkalis: 'Georgette',
-    Bodycone: 'Linen'
+    name: 'Mandarin Collar Belted Fit',
+    category: 'Flare Dress',
+    location: 'Indore',
+    price: 'Rs. 874'
    },
   { cover: '../images/item2.jpg',
-    name: 'Modern Bodycone',
-    Suit: 'Denim',
-    Anarkalis: 'Polyester',
-    Bodycone: 'Satin'
+    name: 'Elegant Chinnon Silk Gown',
+    category: 'Gown Ensemble with Exquisite Dupatta',
+    location: 'Bhopal',
+    price: 'Rs. 749'
    },
   { cover: '../images/casual9.jpg',
-    name: 'Modern Bodycone',
-    Suit: 'Denim',
-    Anarkalis: 'Polyester',
-    Bodycone: 'Satin'
+    name: "MMABIA Women's Dress Plaid Print Button Detail Fitted Dress",
+    category: 'Fitted Dress',
+    location: 'Indore',
+    price: 'Rs. 574'
    },
   { cover: '../images/item3.jpg',
-    name: 'Modern Bodycone',
-    Suit: 'Denim',
-    Anarkalis: 'Polyester',
-    Bodycone: 'Satin'
+    name: 'Attractive Peacock Blue Color Party Wear Anarkali Suit',
+    category: 'Anarkali Suit',
+    location: 'Ujjain',
+    price: 'Rs. 1274'
    },
   { cover: '../images/casual10.jpg',
-    name: 'Modern Bodycone',
-    Suit: 'Denim',
-    Anarkalis: 'Polyester',
-    Bodycone: 'Satin'
+    name: 'DressBerry',
+    category: 'Women Olive Green Pure Cotton Solid Shirt Dress with Belt',
+    location: 'Indore',
+    price: 'Rs. 800'
    },
 ];
 
 export const list = [
     {
       cover: "../images/casual1.jpg",
-      category: "Category 1",
-      location: "Location 1",
-      name: "Name 1",
-      price: "$100",
-      type: "Type 1",
+      category: "floral pattern",
+      location: "Indore",
+      name: "Carina Dress by Dress The Population",
+      price: "Rs. 1300",
+       
     },
     {
       cover: "../images/anarkali.jpg",
-      category: "Category 2",
-      location: "Location 2",
-      name: "Name 2",
-      price: "$200",
-      type: "Type 2",
+      category: "traditional Anarkali-style",
+      location: "Indore",
+      name: "Maroon Embroidered Anarkali with Dupatta",
+      price: "Rs.2,240",
+      
     },
     {
       cover: "../images/dress8.jpg",
-      category: "Category 2",
-      location: "Location 2",
-      name: "Name 2",
-      price: "$200",
-      type: "Type 2",
+      category: "outfit is a sophisticated, semi-formal look",
+      location: "Indore",
+      name: "Blazer",
+      price: "Rs.2,500",
+      
     },
     {
       cover: "../images/item.jpg",
-      category: "Category 2",
-      location: "Location 2",
-      name: "Name 2",
-      price: "$200",
-      type: "Type 2",
+      category: "Kurta Palazzo Dupatta Set",
+      location: "Ujjain",
+      name: "Women Viscose Rayon",
+      price: "Rs.699",
+       
     },
     {
       cover: "../images/casual6.jpg",
-      category: "Category 2",
-      location: "Location 2",
-      name: "Name 2",
-      price: "$200",
-      type: "Type 2",
+      category: "casual dresses",
+      location: "Bhopal",
+      name: "Lauren Kay Sims",
+      price: "Rs.424",
+       
     },
     {
       cover: "../images/product-jpeg.jpg",
-      category: "Category 2",
-      location: "Location 2",
-      name: "Name 2",
-      price: "$200",
-      type: "Type 2",
+      category: "Kurta with Pant & Dupatta",
+      location: "Ujjain",
+      name: "GoSriKi Women's Rayon Blend Straight Printed",
+      price: "Rs.350",
+       
     },
      
   ];

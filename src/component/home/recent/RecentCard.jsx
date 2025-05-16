@@ -28,7 +28,7 @@ const RecentCard = () => {
               <div className='button flex'>
                 <div>
                   <Button className='btn2'>{price}</Button>
-                  <label htmlFor=''>/sqft</label>
+                  
                 </div>
                 <span>{type}</span>
               </div>

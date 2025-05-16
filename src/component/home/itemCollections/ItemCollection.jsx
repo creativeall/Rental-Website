@@ -15,12 +15,12 @@ const ItemCollection = () => {
                                 <div className='box' key={index}>
                                     <img src={items.cover} alt='' />
                                     <div className='overlay'>
-<h5>{items.name}</h5>
-<p>
-    <label>{items.Suit}</label>
-    <label>{items.Anarkalis}</label>
-    <label>{items.Bodycone}</label>
-</p>
+                                        <h5>{items.name}</h5>
+                                        <p>
+                                            <label>{items.category}</label>
+                                            <label>{items.location}</label>
+                                            <label>{items.price}</label>
+                                        </p>
                                     </div>
                                 </div>
                             )

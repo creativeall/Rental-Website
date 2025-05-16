@@ -36,6 +36,7 @@ const Header = () => {
                         <LogoutIcon style={{ marginRight: '8px' }} />
                         Sign In
                     </button>
+                    
                 </div>
             </div>
         </header>

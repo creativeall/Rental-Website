@@ -21,11 +21,6 @@ const Pages = () => {
         <Route exact path='/pricing' Component={Price} />
         <Route exact path='/contact' Component={Contact} />
         <Route exact path='/register' Component={Register} />
-
-          {/* Define your routes here */}
-          {/* Example: */}
-          {/* <Route path="/" element={<Home />} /> */}
-          {/* <Route path="/about" element={<About />} /> */}
         </Routes>
         <Footer />
       </Router>
